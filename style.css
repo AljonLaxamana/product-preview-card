@@ -177,7 +177,7 @@ button:hover {
 
   main {
     display: flex;
-    max-width: 50em;
+    max-width: 40em;
   }
 
   .preview-card-img-container {
@@ -185,11 +185,15 @@ button:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 65em;
+    width: 70em;
     height: auto;
   }
 
   .preview-card-details-container {
     padding: 2em;
+  }
+
+  .preview-card-details-title {
+    font-size: 2em;
   }
 }
